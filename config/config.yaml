@@ -7,3 +7,9 @@ data_ingestion:
   source_URL: D:\Machine_Learning/self_projects/end_to_end_projects_with_deployment/ML_projects/bank_customer_churn/data.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+
+data_validation:
+  root_dir: artifacts/data_validation
+  unzip_data_dir: artifacts/data_ingestion/Churn_Modelling.csv
+  STATUS_FILE: artifacts/data_validation/status.txt
