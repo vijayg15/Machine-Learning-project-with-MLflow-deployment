@@ -1,2 +1,8 @@
-
-key: val
+RandomForestClassifier:
+  n_estimators: 1000 
+  criterion: 'gini' 
+  max_depth: None
+  min_samples_split: 2
+  min_samples_leaf: 1
+  bootstrap: True
+  ccp_alpha: 0.0
