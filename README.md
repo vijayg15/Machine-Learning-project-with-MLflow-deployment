@@ -3,10 +3,10 @@ A complete end to end machine learning project (Bank Customer Churn Prediction) 
 
 ## Bank Customer Churn Prediction
 Customer Churn prediction means knowing which customers are likely to leave or unsubscribe from the service. Customer churn is important because it costs more to acquire new customers than to sell to existing customers. Following are the benefits of analyzing Customer Churn Prediction:
-     * Customer retention
-     * Increase profits
-     * Improve the customer experience
-     * Optimize the products and services
+      * Customer retention
+      * Increase profits
+      * Improve the customer experience
+      * Optimize the product and services
 
 
 ## Workflows

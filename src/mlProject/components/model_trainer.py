@@ -19,8 +19,8 @@ class ModelTrainer:
 
         X_train = train_data.drop([self.config.target_column], axis=1)
         y_train = train_data[[self.config.target_column]]
-        X_val = test_data.drop([self.config.target_column], axis=1)
-        y_val = test_data[[self.config.target_column]]
+        #X_val = test_data.drop([self.config.target_column], axis=1)
+        #y_val = test_data[[self.config.target_column]]
 
 
         clf = RandomForestClassifier(n_estimators = self.config.n_estimators,
