@@ -1,5 +1,5 @@
 RandomForestClassifier:
-  n_estimators: 1000 
+  n_estimators: 1500 
   criterion: 'gini' 
   max_depth: None
   min_samples_split: 2
