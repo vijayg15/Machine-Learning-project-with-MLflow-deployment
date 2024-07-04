@@ -6,9 +6,9 @@ from mlProject.pipeline.stage_03_data_transformation import DataTransformationTr
 from mlProject.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
 from mlProject.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
 
-
-
-
+os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/vijayg15/Machine-Learning-project-with-MLflow-deployment.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"] = "vijayg15"
+os.environ["MLFLOW_TRACKING_PASSWORD"] = "032a6763f4e1199604dda938e424da596b24ccba"
 
 
 STAGE_NAME = "Data Ingestion stage"
