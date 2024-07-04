@@ -1,0 +1,16 @@
+numpy
+pandas 
+matplotlib
+scikit-learn
+imbalanced-learn
+notebook
+joblib
+tqdm
+mlflow==2.3.0
+python-box==6.0.2
+pyYAML
+ensure==1.0.2
+types-PyYAML
+Flask
+Flask-Cors
+-e 
