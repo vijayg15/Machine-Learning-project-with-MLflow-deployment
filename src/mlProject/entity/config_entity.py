@@ -24,3 +24,20 @@ class DataValidationConfig:
 class DataTransformationConfig:
     root_dir: Path
     data_path: Path
+
+
+
+@dataclass(frozen=True)
+class ModelTrainerConfig:
+    root_dir: Path
+    train_data_path: Path
+    test_data_path: Path
+    model_name: str 
+    n_estimators: int
+    criterion: str
+    max_depth: int
+    min_samples_split: float
+    min_samples_leaf: float
+    bootstrap: bool
+    ccp_alpha: float
+    target_column: str
