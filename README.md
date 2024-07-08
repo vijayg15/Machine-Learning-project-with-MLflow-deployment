@@ -33,7 +33,7 @@ In this pipeline, the following sequences are followed:
 
 #### 3. Data Transformation:
 In this pipeline, follow the below sequences: 
-1. Perform EDA and fearure engineering in [03_data_transformation.ipynb](notebooks/03_data_transformation.ipynb). 
+1. Perform EDA and fearure engineering in [03_data_transformation.ipynb](notebooks/data_transformation.ipynb). 
 2. Import all the required packages and libraries and modify the *fe_and_pre_process* function in *DataTransformation* class as per all feature engineering and preprocess steps in [data_transformation.py](src/mlProject/components/data_transformation.py)
 
 #### 4. Model Trainer:
